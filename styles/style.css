@@ -1,0 +1,90 @@
+/* font styles */
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+/* Universal Styles */
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Common Styles */
+header{
+    background: rgba(255, 144,14, 0.1);
+}
+h1{
+    font-weight: 700;
+    color: #131313;
+    font-size: 64px;
+}
+h2{
+    font-weight: 700;
+    color: #131313;
+    font-size: 45px;
+}
+p{
+    font-size: 16px;
+    color: #727272;
+}
+.primary-button{
+    background: #FF900E;
+    color: #ffffff;
+    border: 0;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+    border-radius: 8px;
+}
+
+/* Menu Bar Styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 240px 45px 230px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 48px;
+    font-size: 18px; 
+}
+nav li a{
+    text-decoration: none;
+    color: #424242;
+}
+
+/* Banner Styles */
+.banner{
+    text-align: center;
+    padding: 50px 260px;
+}
+.banner p{
+    padding: 32px 0px;
+}
+.banner img{
+    width: 100%;
+    margin-top: 50px;
+}
+
+/* Features Styles */
+.features-container{
+    padding: 85px 150px;
+}
+.features{
+    display: flex;
+    gap: 52px;
+    align-items: center;
+    justify-content: center;
+}
+.feature-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.features p{
+    line-height: 26px;
+    padding: 24px 0 32px;
+}
+
