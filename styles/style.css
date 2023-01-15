@@ -176,6 +176,35 @@ nav li a{
     color: #727272;
 }
 
+/* Bonus Section Styles */
+.bonus-section-container{
+    margin: 150px 0 0;
+    padding: 100px 300px 100px;
+    background: linear-gradient(rgba(255, 144, 14, 0.2),rgba(255, 144, 14, 0.09)
+      ), url('https://media.istockphoto.com/id/1405625995/photo/model-house-on-laptop-searching-the-internet-for-real-estate-or-new-house.jpg?b=1&s=170667a&w=0&k=20&c=K6USkIY0boJF_fg-AC70biW2Kl-ZNPSZoGSdFAbyqRY=');
+    background-size: cover;
+}
+.bonus-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.bonus-section-left{
+    padding: 0 50px 0;
+}
+.bonus-section-right input[type=email]{
+    padding: 10px;
+    border: 1px solid #FF900E;
+    border-radius: 4px;
+    width: 70%;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.bonus-section p{
+    padding-top: 10px;
+}
+
 /* Our Sponsors Styles */
 .our-sponsors{
     padding: 180px 480px 50px;
@@ -277,6 +306,19 @@ footer{
     }
     .fact{
         padding: 45px 10px 55px;
+    }
+    .bonus-section-container{
+        padding: 100px 0;
+    }
+    .bonus-section{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .bonus-section-left{
+        padding: 0 15px 0;
+    }
+    .bonus-section-right{
+        padding: 0 10px;
     }
     .our-sponsors{
         padding: 80px 10px 50px;
