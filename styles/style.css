@@ -335,3 +335,99 @@ footer{
     }
 }
 
+/* Tablet Devices */
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+    ul{
+        padding: 0;
+    }
+    h1{
+        font-weight: 700;
+        color: #131313;
+        font-size: 42px;
+    }
+    h2{
+        font-weight: 700;
+        color: #131313;
+        font-size: 36px;
+    }
+    nav{
+        padding: 50px 0px 45px 0px;
+        flex-direction: column;
+        text-align: center;
+    }
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    nav li{
+        margin-left: 0px;
+    }
+    .banner{
+        padding: 0;
+    }
+    .features-container{
+        padding: 85px 10px 30px;
+    }
+    .features{
+        flex-direction: column;
+    }
+    .feature-images{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .loved-features-container{
+        padding: 65px 10px 0;
+    }
+    .loved-features{
+        flex-direction: column;
+    }
+    .loved-features h2{
+        padding: 0 0 0 10px;
+    }  
+    .loved-feature-list{
+        padding: 10px;
+    }
+    .loved-features img{
+        width: 100%;
+    }
+    .experience-button{
+        padding: 46px 0;
+    }
+    .some-facts-container{
+        padding: 0 10px;
+    }
+    .some-facts-container p{
+        padding: 10px 0px 20px 0;
+    }
+    .fact-container{
+        gap: 5px;
+    }
+    .fact{
+        padding: 45px 10px 55px;
+    }
+    .bonus-section-container{
+        padding: 100px 0;
+    }
+    .bonus-section{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .bonus-section-left{
+        padding: 0 15px 0;
+    }
+    .bonus-section-right{
+        padding: 0 10px;
+    }
+    .our-sponsors{
+        padding: 80px 10px 50px;
+        text-align: center;
+    }
+    .our-sponsor-images{
+        flex-wrap: wrap;
+    }
+    footer{
+        padding: 130px 10px;
+    }
+    .footer p{
+        padding: 20px 0px;
+    }
+}
