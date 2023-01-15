@@ -21,9 +21,20 @@ h2{
     color: #131313;
     font-size: 45px;
 }
+h3{
+    font-weight: 500;
+    color: #131313;
+    font-size: 25px;
+}
+h4{
+    font-weight: 600;
+    color: #131313;
+    font-size: 20px;
+}
 p{
     font-size: 16px;
     color: #727272;
+    line-height: 26px;
 }
 .primary-button{
     background: #FF900E;
@@ -70,7 +81,7 @@ nav li a{
 
 /* Features Styles */
 .features-container{
-    padding: 85px 150px;
+    padding: 85px 150px 30px;
 }
 .features{
     display: flex;
@@ -84,7 +95,48 @@ nav li a{
     gap: 24px;
 }
 .features p{
-    line-height: 26px;
     padding: 24px 0 32px;
 }
 
+/* Loved Features Styles */
+.loved-features-container{
+    padding: 65px 150px;
+}
+.loved-features{
+    display: flex;
+    gap: 54px;
+}
+.loved-features h2{
+    border-left: 5px solid #FF900E;
+    padding: 0 0 0 24px;
+}
+.loved-features-description{
+    padding: 24px 0 30px;
+}
+.loved-feature-list{
+    box-shadow: 0 0 5px rgb(219, 219, 219);
+    border-radius: 5px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.loved-feature-list p{
+    padding-top: 10px;
+}
+.loved-features img{
+    width: 660px;
+}
+.experience-button{
+    background: #FF900E;
+    color: #ffffff !important;
+    border: 0;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 46px 42px;
+    border-radius: 8px;
+    text-align: center;
+    width: 250px;
+    position: relative;
+    top: -100px;
+    left: -30px;
+    
+}
