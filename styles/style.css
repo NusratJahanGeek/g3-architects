@@ -69,7 +69,7 @@ nav li a{
 /* Banner Styles */
 .banner{
     text-align: center;
-    padding: 50px 260px;
+    padding: 50px 360px;
 }
 .banner p{
     padding: 32px 0px;
@@ -100,7 +100,7 @@ nav li a{
 
 /* Loved Features Styles */
 .loved-features-container{
-    padding: 65px 150px;
+    padding: 65px 150px 0;
 }
 .loved-features{
     display: flex;
@@ -178,6 +178,9 @@ nav li a{
     align-items: center;
     gap: 30px;
 }
+.our-sponsor-images img{
+    filter: grayscale(100%);
+}
 
 /* Footer Styles */
 footer{
@@ -192,3 +195,89 @@ footer{
     text-align: center;
     color: #424242;
 }
+
+/* Mobile Devices */
+@media only screen and (max-width: 688px) {
+    ul{
+        padding: 0;
+    }
+    h1{
+        font-weight: 700;
+        color: #131313;
+        font-size: 42px;
+    }
+    h2{
+        font-weight: 700;
+        color: #131313;
+        font-size: 36px;
+    }
+    nav{
+        padding: 50px 0px 45px 0px;
+        flex-direction: column;
+        text-align: center;
+    }
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    nav li{
+        margin-left: 0px;
+    }
+    .banner{
+        padding: 0;
+    }
+    .features-container{
+        padding: 85px 10px 30px;
+    }
+    .features{
+        flex-direction: column-reverse;
+    }
+    .feature-images{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .loved-features-container{
+        padding: 65px 10px 0;
+    }
+    .loved-features{
+        flex-direction: column;
+    }
+    .loved-features h2{
+        padding: 0 0 0 10px;
+    }  
+    .loved-feature-list{
+        padding: 10px;
+    }
+    .loved-features img{
+        width: 100%;
+    }
+    .experience-button{
+        padding: 46px 0;
+    }
+    .some-facts-container{
+        padding: 0 10px;
+    }
+    .some-facts-container p{
+        padding: 10px 0px 20px 0;
+    }
+    .fact-container{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .fact{
+        padding: 45px 10px 55px;
+    }
+    .our-sponsors{
+        padding: 80px 10px 50px;
+        text-align: center;
+    }
+    .our-sponsor-images{
+        flex-direction: column;
+    }
+    footer{
+        padding: 130px 10px;
+    }
+    .footer p{
+        padding: 20px 0px;
+    }
+}
+
