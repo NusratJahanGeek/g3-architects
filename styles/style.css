@@ -140,3 +140,55 @@ nav li a{
     left: -30px;
     
 }
+
+/* Some Facts Styles */
+.some-facts-container{
+    padding: 0 150px;
+}
+.some-facts-container p{
+    padding: 0 650px 100px 0;
+}
+.fact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+.fact{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding: 45px 35px 55px;
+}
+.fact h4{
+    color: #727272;
+}
+
+/* Our Sponsors Styles */
+.our-sponsors{
+    padding: 180px 480px 50px;
+    text-align: center;
+}
+.our-sponsors p{
+    padding: 24px 0 0;
+}
+.our-sponsor-images{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Footer Styles */
+footer{
+    padding: 130px 120px;
+    margin-bottom: 50px;
+}
+.footer{
+    background-color: #FFF4E7;
+}
+.footer p{
+    padding: 20px 200px;
+    text-align: center;
+    color: #424242;
+}
